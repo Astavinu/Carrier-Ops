@@ -1,0 +1,64 @@
+//mission appearance
+onLoadName = "Mission Template Zeus V1.3.1";
+OnLoadMission = "Missionsbeschreibung";
+loadScreen = "images\Logo-Zeus.jpg";
+
+overviewText = "Zeus Template";
+overviewTextLocked = "If you are seeing this message, an error has occurred.";
+//overviewPicture = "images\Logo-Zeus.jpg";
+
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 20;
+};
+
+//respawn settings
+respawnOnStart = 0;
+//respawnDialog = 0;
+//CorpsManage
+corpseManagerMode = 2;
+corpseLimit = 0;
+corpseRemovalMinTime = 30;
+corpseRemovalMaxTime = 30;
+
+//mission settings
+joinUnassigned = 1;
+enableDebugConsole = 1;//0=disabled, 1=admin, 2=all
+saving=0;
+
+//difficulty settings
+showGroupIndicator = 0;
+//showHUD = 0;
+
+//-------------------------------------------------------------------------------------------------
+//----------------------------------- DO NOT EDIT BELOW ------------------------------------
+//-------------------------------------------------------------------------------------------------
+
+//Set AceParameters
+class ACE_Settings {	
+	#include "lib\mod\ace3\ace3.hpp"
+};
+
+//Set Parameters
+class Params
+{
+	#define DAYTIMEPERIOD_DEFAULT	12
+	#include "lib\core\paramDaytimePeriod.inc"
+	#include "lib\core\CfgParams.hpp"
+};
+
+#include "lib\ui\Main_GUI.hpp"
+#include "lib\taw_vd\GUI.h"
+
+class CfgFunctions
+{
+	#include "lib\core\CfgFunctions.hpp"
+	#include "lib\co\CfgFunctions.hpp"
+	#include "lib\co\tasks\CfgFunctions.hpp"
+	#include "lib\co\tasks\CfgFunctions_captureTown.hpp"
+	#include "lib\taw_vd\CfgFunctions.hpp"
+};
+
+//-------------------------------------------------------------------------------------------------

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="MissionTamplate">
+	<Package name="Mission Tamplate">
+		<Key ID="STR_MT_Medic_difficulty_basic">
+			<Original>Basic</Original>
+			<English>Basic</English>
+			<German>Standard</German>
+		</Key>
+		<Key ID="STR_MT_Medic_difficulty_advanced">
+			<Original>Advanced</Original>
+			<English>Advanced</English>
+			<German>Erweitert</German>
+		</Key>
+		<Key ID="STR_MT_Medic_difficulty_Displayname">
+			<Original>ACE Medic difficulty</Original>
+			<English>ACE Medic difficulty</English>
+			<German>ACE Medizinischer Schwierigkeitsgrad</German>
+		</Key>
+		<Key ID="STR_MT_Medic_difficulty_Deactivated">
+			<Original>Deactivated</Original>
+			<English>Deactivated</English>
+			<German>Deaktiviert</German>
+		</Key>
+		<Key ID="STR_MT_Medic_difficulty_Easy">
+			<Original>Easy</Original>
+			<English>Easy</English>
+			<German>Leicht</German>
+		</Key>
+		<Key ID="STR_MT_Medic_difficulty_base">
+			<Original>Base Medic</Original>
+			<English>Advanced Medic Normal</English>
+			<German>Normale erweiterte Sanitätseinstellung</German>
+		</Key>
+		<Key ID="STR_MT_Medic_difficulty_havy">
+			<Original>Havy Medic+Doc</Original>
+			<English>Havy Medic+Doc</English>
+			<German>Schwere erweiterte Sanitätseinstellung incl. Arzt</German>
+		</Key>
+	</Package>
+</Project>
